@@ -1,10 +1,7 @@
-// components/ChatBotComWidget.tsx
-'use client'; // <-- WAJIB: ini mendeklarasikan komponen ini sebagai Client Component
-
+'use client';
 import React from 'react';
 
 const ChatBotComWidget: React.FC = () => {
-    // Ini adalah script lengkap yang Anda berikan dari ChatBot.com
     const chatBotScript = `
     <script>
     window.__ow = window.__ow || {};
@@ -18,9 +15,6 @@ const ChatBotComWidget: React.FC = () => {
     `;
 
     return (
-        // Menggunakan dangerouslySetInnerHTML untuk menyuntikkan string HTML mentah.
-        // React memperingatkan tentang ini karena potensi XSS, tapi umum digunakan untuk embed 3rd-party script.
-        // Script akan dieksekusi begitu elemen div ini dimasukkan ke DOM.
         <div dangerouslySetInnerHTML={{ __html: chatBotScript }} />
     );
 };
