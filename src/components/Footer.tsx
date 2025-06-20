@@ -26,24 +26,6 @@ export default function Footer() {
           <Link href="#" tabIndex={0}>Blog</Link>
           <Link href="#" tabIndex={0}>Peta Wisata</Link>
         </section>
-        
-        <section className="footer-section" aria-label="Ikuti kami di media sosial">
-          <h4 className="text-[#f7e9d5] dark:text-white">Ikuti Kami</h4>
-          <div className="footer-social">
-            <Link href="#" aria-label="Twitter" tabIndex={0}>
-              <span className="material-icons" aria-hidden="true">twitter</span>
-            </Link>
-            <Link href="#" aria-label="Facebook" tabIndex={0}>
-              <span className="material-icons" aria-hidden="true">facebook</span>
-            </Link>
-            <Link href="#" aria-label="Instagram" tabIndex={0}>
-              <span className="material-icons" aria-hidden="true">instagram</span>
-            </Link>
-            <Link href="#" aria-label="YouTube" tabIndex={0}>
-              <span className="material-icons" aria-hidden="true">video_library</span>
-            </Link>
-          </div>
-        </section>
       </div>
       
       <div className="footer-bottom text-[#bfb799] dark:text-gray-400">© {new Date().getFullYear()} Wisata Jogja. All rights reserved.</div>
