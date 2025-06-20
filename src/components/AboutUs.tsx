@@ -21,7 +21,7 @@ export default function AboutUs() {
         </div>
         <div className="relative h-[300px] md:h-[400px] rounded-[20px] overflow-hidden">
           <Image 
-            src="/images/team.jpg" 
+            src="/hero-about-us.png" 
             alt="Tim Wisata Jogja" 
             fill
             className="object-cover"
