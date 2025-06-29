@@ -937,7 +937,7 @@ footer {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 32px;
-}
+} 
 
 .footer-section {
   flex: 1 1 200px;

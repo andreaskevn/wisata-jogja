@@ -16,7 +16,6 @@ import ScrollAnimation from '@/components/ScrollAnimation';
 
 export default function Home() {
   useEffect(() => {
-    // Animasi scroll untuk semua elemen dengan kelas scroll-animate
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
